@@ -1,0 +1,284 @@
++-----------+----------------+--------------------------+----------+-----------------+---------------------+------------------+----------------+------------------------+
+| Threat ID | Indicator Type |     Indicator Value      | Severity |      Source     |     Organization    |    Motivation    |     taget      |       Timestamp        |
++-----------+----------------+--------------------------+----------+-----------------+---------------------+------------------+----------------+------------------------+
+|     1     |       IP       |      204.240.215.88      |  Medium  |  Threat Feed A  | 2023-02-24 13:02:04 |     M2U.COM      |     Power      |       businesses       |
+|     2     |      URL       |    jackson-ellis.com     |  Medium  |  Threat Feed B  | 2023-08-02 02:29:39 |     M2U.COM      |     Power      |      individuals       |
+|     3     |       IP       |      86.162.101.87       |   Low    |  Threat Feed B  | 2023-05-12 12:34:41 |   Audio group    | Ctber bullying |      individuals       |
+|     4     |      URL       |    garrett-sutton.com    |   Low    |  Threat Feed B  | 2023-04-28 06:44:02 |   Audio group    |   Political    | financial institutions |
+|     5     |   File Hash    |        cantu.org         |  Medium  |  Threat Feed A  | 2023-01-07 06:32:56 |  racist limited  |     Power      |      individuals       |
+|     6     |      URL       |     sanchez-bush.biz     |   Low    |  Threat Feed A  | 2023-06-14 18:20:29 |     M2U.COM      | Financial gain |       businesses       |
+|     7     |       IP       |       154.86.37.7        |   High   |  Threat Feed A  | 2023-01-14 18:41:40 |   Audio group    |   Political    |       businesses       |
+|     8     |   File Hash    |         hunt.com         |   High   |  Threat Feed A  | 2023-04-01 13:18:50 | WOO commerce.com | Financial gain |      individuals       |
+|     9     |       IP       |      21.105.114.181      |  Medium  |  Threat Feed A  | 2023-05-18 02:43:31 | WOO commerce.com | Financial gain | financial institutions |
+|     10    |       IP       |      174.146.231.54      |  Medium  |  Threat Feed A  | 2023-03-20 07:22:32 |     M2U.COM      | Ctber bullying |      individuals       |
+|     11    |   File Hash    |        smith.net         |   High   |  Threat Feed B  | 2023-05-10 14:44:01 |  racist limited  | Ctber bullying |       businesses       |
+|     12    |       IP       |       79.4.191.72        |   High   |  Threat Feed A  | 2023-01-22 20:38:38 |   Audio group    | Ctber bullying | financial institutions |
+|     13    |     Domain     |       huffman.com        |  Medium  |  Threat Feed A  | 2023-05-17 20:49:40 |  racist limited  | Ctber bullying |       businesses       |
+|     14    |   File Hash    |        knight.com        |   Low    |  Threat Feed A  | 2023-07-19 18:20:56 |  racist limited  | Financial gain |       businesses       |
+|     15    |       IP       |       215.49.7.180       |  Medium  | Internal Sensor | 2023-02-06 06:27:03 |   Audio group    |     Power      |     mobile phones      |
+|     16    |     Domain     |    jackson-perez.info    |  Medium  |  Threat Feed B  | 2023-03-07 18:20:54 |     M2U.COM      |   Political    | financial institutions |
+|     17    |      URL       |        smith.net         |  Medium  |  Threat Feed B  | 2023-06-13 23:11:02 | WOO commerce.com |   Political    |      individuals       |
+|     18    |     Domain     |       simmons.com        |  Medium  |  Threat Feed A  | 2023-08-11 02:21:01 | WOO commerce.com | Financial gain |      individuals       |
+|     19    |      URL       |       garcia.info        |   High   |  Threat Feed B  | 2023-02-05 14:19:04 |   Audio group    | Ctber bullying |       businesses       |
+|     20    |      URL       |       webster.org        |   Low    |  Threat Feed A  | 2023-05-06 10:38:23 |     M2U.COM      |   Political    |      individuals       |
+|     21    |   File Hash    |         koch.org         |   High   |  Threat Feed B  | 2023-08-01 11:11:23 |     M2U.COM      | Ctber bullying |      individuals       |
+|     22    |      URL       |    thompson-clay.com     |  Medium  |  Threat Feed B  | 2023-06-04 23:23:08 |     M2U.COM      | Financial gain |      individuals       |
+|     23    |     Domain     |     flores-ward.com      |   Low    |  Threat Feed B  | 2023-01-31 14:07:48 | WOO commerce.com | Financial gain |       businesses       |
+|     24    |     Domain     |  christian-douglas.biz   |   High   |  Threat Feed A  | 2023-03-06 21:24:01 |  racist limited  |     Power      | financial institutions |
+|     25    |       IP       |       89.97.129.21       |   Low    |  Threat Feed B  | 2023-06-11 13:03:21 |     M2U.COM      | Financial gain |      individuals       |
+|     26    |   File Hash    |       johnson.com        |  Medium  |  Threat Feed B  | 2023-03-04 17:31:18 |   Audio group    | Ctber bullying |       businesses       |
+|     27    |     Domain     |      brown-key.info      |  Medium  |  Threat Feed A  | 2023-08-05 16:02:20 |     M2U.COM      | Financial gain |      individuals       |
+|     28    |   File Hash    |    wilson-wilson.com     |   High   |  Threat Feed B  | 2023-02-13 02:37:25 |   Audio group    |     Power      |      individuals       |
+|     29    |      URL       |       erickson.biz       |   Low    |  Threat Feed A  | 2023-04-08 11:25:05 |   Audio group    |     Power      | financial institutions |
+|     30    |   File Hash    |        suarez.com        |  Medium  |  Threat Feed A  | 2023-06-09 08:40:06 |   Audio group    |   Political    |      individuals       |
+|     31    |       IP       |     168.147.212.201      |   Low    | Internal Sensor | 2023-01-27 13:04:39 |   Audio group    | Financial gain | financial institutions |
+|     32    |      URL       |       houston.info       |   Low    |  Threat Feed A  | 2023-07-30 20:46:23 | WOO commerce.com |   Political    |      individuals       |
+|     33    |   File Hash    |        green.biz         |   Low    |  Threat Feed A  | 2023-03-25 18:16:20 |  racist limited  | Ctber bullying | financial institutions |
+|     34    |      URL       |  rodriguez-gonzalez.com  |   High   |  Threat Feed A  | 2023-04-04 21:37:19 |     M2U.COM      |   Political    |      individuals       |
+|     35    |       IP       |      157.230.64.150      |   High   |  Threat Feed A  | 2023-01-05 23:04:11 |   Audio group    | Ctber bullying |     mobile phones      |
+|     36    |     Domain     |       kramer.info        |   Low    | Internal Sensor | 2023-01-14 09:59:57 |   Audio group    |   Political    |     mobile phones      |
+|     37    |     Domain     |        robles.org        |  Medium  |  Threat Feed B  | 2023-03-03 15:10:42 |   Audio group    |   Political    | financial institutions |
+|     38    |   File Hash    |       russell.org        |  Medium  |  Threat Feed B  | 2023-06-04 09:00:42 |  racist limited  | Ctber bullying |     mobile phones      |
+|     39    |      URL       |        stokes.com        |   Low    |  Threat Feed A  | 2023-04-01 21:06:31 |  racist limited  | Ctber bullying | financial institutions |
+|     40    |       IP       |     114.182.230.200      |   High   |  Threat Feed B  | 2023-06-22 05:04:55 |     M2U.COM      |     Power      |      individuals       |
+|     41    |   File Hash    |        rivers.com        |  Medium  | Internal Sensor | 2023-04-30 00:55:24 |     M2U.COM      |   Political    |     mobile phones      |
+|     42    |      URL       |        watson.org        |   Low    |  Threat Feed B  | 2023-03-24 05:32:47 |  racist limited  |     Power      |     mobile phones      |
+|     43    |       IP       |       184.66.64.19       |   High   | Internal Sensor | 2023-01-12 10:25:32 |   Audio group    | Ctber bullying | financial institutions |
+|     44    |     Domain     |        chavez.com        |   Low    | Internal Sensor | 2023-05-11 21:57:27 |  racist limited  | Financial gain |      individuals       |
+|     45    |   File Hash    |    jones-douglas.com     |  Medium  |  Threat Feed A  | 2023-03-24 13:12:01 |     M2U.COM      |     Power      | financial institutions |
+|     46    |     Domain     |        spence.com        |   High   |  Threat Feed A  | 2023-05-31 13:30:48 |     M2U.COM      |   Political    | financial institutions |
+|     47    |       IP       |      23.160.175.203      |   Low    |  Threat Feed B  | 2023-05-05 11:33:51 |  racist limited  | Financial gain |      individuals       |
+|     48    |   File Hash    |       sanchez.com        |  Medium  | Internal Sensor | 2023-02-17 23:32:54 |  racist limited  | Ctber bullying |     mobile phones      |
+|     49    |       IP       |       64.33.60.213       |   High   |  Threat Feed A  | 2023-04-27 07:02:45 |  racist limited  | Ctber bullying |       businesses       |
+|     50    |      URL       |   robbins-phillips.com   |  Medium  | Internal Sensor | 2023-01-21 04:36:36 |   Audio group    |     Power      |       businesses       |
+|     51    |   File Hash    |        thomas.com        |   High   |  Threat Feed A  | 2023-06-12 21:28:38 |  racist limited  | Financial gain |     mobile phones      |
+|     52    |      URL       |     obrien-evans.net     |  Medium  |  Threat Feed B  | 2023-05-13 11:22:19 |   Audio group    |   Political    | financial institutions |
+|     53    |       IP       |      75.190.13.190       |  Medium  | Internal Sensor | 2023-06-07 08:16:22 |  racist limited  | Financial gain | financial institutions |
+|     54    |       IP       |      3.236.189.201       |  Medium  |  Threat Feed B  | 2023-06-23 06:41:59 | WOO commerce.com | Ctber bullying | financial institutions |
+|     55    |   File Hash    |         luna.com         |  Medium  |  Threat Feed B  | 2023-06-08 17:45:51 |  racist limited  | Financial gain | financial institutions |
+|     56    |     Domain     |     cain-garcia.net      |  Medium  |  Threat Feed A  | 2023-04-22 11:48:59 |  racist limited  |   Political    |      individuals       |
+|     57    |     Domain     |         cox.com          |   High   | Internal Sensor | 2023-03-15 23:23:40 |   Audio group    |   Political    |     mobile phones      |
+|     58    |       IP       |      57.19.188.246       |   Low    |  Threat Feed A  | 2023-05-13 01:08:22 | WOO commerce.com |   Political    |       businesses       |
+|     59    |     Domain     |       johnson.com        |  Medium  |  Threat Feed B  | 2023-06-13 17:19:06 |   Audio group    | Ctber bullying |     mobile phones      |
+|     60    |   File Hash    |        butler.com        |  Medium  | Internal Sensor | 2023-01-29 06:44:16 |     M2U.COM      |   Political    |       businesses       |
+|     61    |   File Hash    |        arias.com         |   High   |  Threat Feed A  | 2023-04-21 18:32:43 | WOO commerce.com | Ctber bullying |      individuals       |
+|     62    |     Domain     |        miller.com        |  Medium  | Internal Sensor | 2023-02-07 11:39:45 |     M2U.COM      |     Power      | financial institutions |
+|     63    |       IP       |       19.159.1.50        |  Medium  |  Threat Feed A  | 2023-05-17 08:10:55 |  racist limited  |   Political    |     mobile phones      |
+|     64    |      URL       |     fisher-hart.org      |   High   |  Threat Feed B  | 2023-08-10 23:38:15 |     M2U.COM      |   Political    |       businesses       |
+|     65    |       IP       |       78.224.57.13       |   High   | Internal Sensor | 2023-05-13 18:59:40 |  racist limited  | Financial gain |       businesses       |
+|     66    |     Domain     |       douglas.com        |  Medium  | Internal Sensor | 2023-06-01 02:21:05 |  racist limited  | Ctber bullying | financial institutions |
+|     67    |      URL       |      smith-buck.net      |   High   | Internal Sensor | 2023-07-24 11:16:02 |     M2U.COM      |   Political    |       businesses       |
+|     68    |     Domain     |        lewis.com         |  Medium  |  Threat Feed A  | 2023-06-14 22:28:31 |  racist limited  | Financial gain |     mobile phones      |
+|     69    |      URL       |    potter-carter.com     |   High   |  Threat Feed B  | 2023-01-11 13:31:28 | WOO commerce.com |     Power      |       businesses       |
+|     70    |     Domain     |         hale.net         |   Low    | Internal Sensor | 2023-06-30 22:27:17 |   Audio group    |     Power      |      individuals       |
+|     71    |      URL       |         hill.com         |  Medium  |  Threat Feed A  | 2023-05-07 21:10:12 | WOO commerce.com | Financial gain |     mobile phones      |
+|     72    |   File Hash    |        holmes.com        |  Medium  |  Threat Feed A  | 2023-05-07 20:24:01 |     M2U.COM      | Financial gain | financial institutions |
+|     73    |   File Hash    |    robles-schmidt.com    |   Low    |  Threat Feed B  | 2023-04-11 08:53:58 | WOO commerce.com |     Power      | financial institutions |
+|     74    |       IP       |      93.196.212.149      |   Low    |  Threat Feed A  | 2023-07-15 17:12:01 |     M2U.COM      |   Political    | financial institutions |
+|     75    |     Domain     | mccormick-washington.biz |  Medium  |  Threat Feed B  | 2023-01-28 07:43:02 |     M2U.COM      | Ctber bullying |       businesses       |
+|     76    |       IP       |      123.66.82.252       |   High   |  Threat Feed A  | 2023-04-09 20:20:25 |     M2U.COM      |   Political    | financial institutions |
+|     77    |       IP       |      27.174.245.97       |  Medium  |  Threat Feed B  | 2023-04-30 22:57:55 | WOO commerce.com | Ctber bullying | financial institutions |
+|     78    |   File Hash    |        moore.org         |  Medium  |  Threat Feed A  | 2023-07-29 00:16:50 |   Audio group    |   Political    |      individuals       |
+|     79    |   File Hash    |     lewis-hughes.com     |   Low    |  Threat Feed A  | 2023-08-05 23:39:15 | WOO commerce.com | Ctber bullying |     mobile phones      |
+|     80    |      URL       |         howe.org         |  Medium  | Internal Sensor | 2023-02-13 07:17:41 | WOO commerce.com | Ctber bullying |      individuals       |
+|     81    |   File Hash    |        kelly.com         |  Medium  | Internal Sensor | 2023-08-04 16:35:09 | WOO commerce.com | Financial gain | financial institutions |
+|     82    |      URL       |   martinez-patrick.org   |   Low    |  Threat Feed A  | 2023-07-01 21:21:56 |   Audio group    | Financial gain | financial institutions |
+|     83    |      URL       |       campbell.com       |  Medium  | Internal Sensor | 2023-04-23 13:36:24 | WOO commerce.com |     Power      |      individuals       |
+|     84    |      URL       |       stevens.com        |   Low    |  Threat Feed B  | 2023-05-15 00:21:43 | WOO commerce.com | Financial gain |       businesses       |
+|     85    |       IP       |      50.176.19.247       |   Low    |  Threat Feed A  | 2023-05-07 16:03:00 |   Audio group    |     Power      | financial institutions |
+|     86    |   File Hash    |         lee.com          |   High   |  Threat Feed B  | 2023-01-12 06:54:12 | WOO commerce.com | Ctber bullying |       businesses       |
+|     87    |   File Hash    |      cardenas.info       |   Low    |  Threat Feed B  | 2023-04-09 18:58:01 |   Audio group    |     Power      |     mobile phones      |
+|     88    |       IP       |      18.231.112.163      |   High   |  Threat Feed A  | 2023-08-03 13:38:29 |  racist limited  |     Power      |     mobile phones      |
+|     89    |     Domain     |       delgado.com        |   Low    | Internal Sensor | 2023-05-28 02:13:50 |   Audio group    |   Political    | financial institutions |
+|     90    |      URL       |     joyce-cross.com      |   Low    | Internal Sensor | 2023-05-09 21:20:28 |     M2U.COM      | Ctber bullying |      individuals       |
+|     91    |       IP       |      153.33.231.166      |   High   |  Threat Feed B  | 2023-08-10 03:29:37 |     M2U.COM      |   Political    |     mobile phones      |
+|     92    |   File Hash    |  richardson-freeman.net  |   Low    | Internal Sensor | 2023-05-15 13:53:25 |   Audio group    | Ctber bullying |     mobile phones      |
+|     93    |      URL       |       smith-le.org       |   Low    |  Threat Feed A  | 2023-04-25 14:49:51 |   Audio group    | Ctber bullying | financial institutions |
+|     94    |   File Hash    |     gill-johnson.com     |  Medium  |  Threat Feed A  | 2023-02-14 16:40:02 |  racist limited  | Financial gain |     mobile phones      |
+|     95    |      URL       |     foster-welch.com     |   Low    | Internal Sensor | 2023-06-07 13:46:33 | WOO commerce.com | Financial gain | financial institutions |
+|     96    |   File Hash    |       walters.com        |   High   |  Threat Feed A  | 2023-06-28 15:04:58 |  racist limited  |     Power      |       businesses       |
+|     97    |     Domain     |        parks.com         |   Low    |  Threat Feed B  | 2023-06-18 14:02:37 |  racist limited  |   Political    |       businesses       |
+|     98    |     Domain     |        thomas.com        |   Low    | Internal Sensor | 2023-03-02 09:27:52 | WOO commerce.com | Ctber bullying |       businesses       |
+|     99    |     Domain     |        curry.com         |   Low    |  Threat Feed B  | 2023-04-17 20:18:40 |  racist limited  | Financial gain |     mobile phones      |
+|    100    |     Domain     |     cowan-sloan.com      |   Low    |  Threat Feed B  | 2023-03-12 02:57:02 | WOO commerce.com | Ctber bullying | financial institutions |
+|    101    |     Domain     |        james.com         |   Low    |  Threat Feed A  | 2023-02-20 16:47:42 |     M2U.COM      |   Political    |     mobile phones      |
+|    102    |      URL       |       edwards.net        |   Low    |  Threat Feed A  | 2023-05-15 13:30:04 |   Audio group    | Ctber bullying |       businesses       |
+|    103    |     Domain     |       johnson.com        |  Medium  | Internal Sensor | 2023-01-06 09:58:50 |  racist limited  | Financial gain |       businesses       |
+|    104    |     Domain     |    taylor-oliver.com     |  Medium  |  Threat Feed A  | 2023-06-25 23:22:04 |   Audio group    |   Political    |     mobile phones      |
+|    105    |   File Hash    |       skinner.com        |   High   |  Threat Feed A  | 2023-03-19 00:10:39 | WOO commerce.com |   Political    |     mobile phones      |
+|    106    |     Domain     |        levine.org        |  Medium  |  Threat Feed B  | 2023-02-03 15:04:54 | WOO commerce.com | Financial gain |      individuals       |
+|    107    |      URL       |     martin-davis.com     |  Medium  |  Threat Feed A  | 2023-06-03 12:06:35 |   Audio group    |     Power      |     mobile phones      |
+|    108    |       IP       |      120.35.175.237      |   High   | Internal Sensor | 2023-03-14 16:22:23 |  racist limited  |   Political    |       businesses       |
+|    109    |   File Hash    |   hunter-campbell.com    |   Low    |  Threat Feed A  | 2023-03-02 17:14:17 |  racist limited  | Financial gain |     mobile phones      |
+|    110    |       IP       |      220.33.121.131      |  Medium  |  Threat Feed A  | 2023-07-25 14:37:49 |  racist limited  |     Power      | financial institutions |
+|    111    |       IP       |       197.32.51.34       |   High   | Internal Sensor | 2023-02-04 12:03:57 |     M2U.COM      | Ctber bullying | financial institutions |
+|    112    |      URL       |        tanner.biz        |   Low    |  Threat Feed B  | 2023-07-07 14:11:32 |   Audio group    | Ctber bullying |       businesses       |
+|    113    |       IP       |      18.112.181.30       |  Medium  |  Threat Feed A  | 2023-05-17 10:22:47 |  racist limited  | Financial gain |       businesses       |
+|    114    |   File Hash    |       beltran.com        |   High   |  Threat Feed B  | 2023-05-20 13:55:33 |   Audio group    | Ctber bullying |     mobile phones      |
+|    115    |     Domain     |   johnson-mendoza.com    |   High   | Internal Sensor | 2023-07-22 03:32:04 | WOO commerce.com | Ctber bullying |     mobile phones      |
+|    116    |     Domain     |      fernandez.info      |   Low    | Internal Sensor | 2023-04-02 08:13:17 |  racist limited  | Ctber bullying |       businesses       |
+|    117    |       IP       |      195.54.229.153      |   High   | Internal Sensor | 2023-01-17 23:35:01 | WOO commerce.com | Financial gain |      individuals       |
+|    118    |   File Hash    |   henderson-black.com    |   High   |  Threat Feed B  | 2023-01-08 05:56:55 |     M2U.COM      | Financial gain | financial institutions |
+|    119    |       IP       |       74.25.15.117       |   High   |  Threat Feed A  | 2023-02-19 15:51:56 |  racist limited  |     Power      |       businesses       |
+|    120    |     Domain     |        romero.com        |   Low    |  Threat Feed A  | 2023-03-06 10:27:06 |     M2U.COM      | Ctber bullying | financial institutions |
+|    121    |       IP       |      174.183.143.32      |   High   |  Threat Feed B  | 2023-04-07 22:58:55 | WOO commerce.com |   Political    |       businesses       |
+|    122    |     Domain     |        brown.biz         |   High   |  Threat Feed B  | 2023-01-22 03:30:51 | WOO commerce.com |     Power      |       businesses       |
+|    123    |   File Hash    |   johnson-johnson.com    |  Medium  |  Threat Feed A  | 2023-03-23 05:53:58 |  racist limited  |   Political    |     mobile phones      |
+|    124    |   File Hash    |       jackson.net        |  Medium  |  Threat Feed B  | 2023-05-06 00:43:21 |  racist limited  | Ctber bullying |     mobile phones      |
+|    125    |     Domain     |      gill-frye.biz       |   Low    |  Threat Feed A  | 2023-01-16 00:23:56 |  racist limited  | Ctber bullying |       businesses       |
+|    126    |       IP       |      108.190.96.207      |   Low    |  Threat Feed B  | 2023-08-06 20:12:13 |  racist limited  |     Power      |      individuals       |
+|    127    |      URL       |     cole-price.info      |  Medium  | Internal Sensor | 2023-01-23 01:21:11 |  racist limited  |     Power      |     mobile phones      |
+|    128    |   File Hash    |     church-page.info     |   High   |  Threat Feed B  | 2023-07-06 06:23:06 |  racist limited  |   Political    |      individuals       |
+|    129    |     Domain     |      dickerson.com       |   Low    |  Threat Feed B  | 2023-02-02 00:08:30 |     M2U.COM      | Financial gain |     mobile phones      |
+|    130    |   File Hash    |        quinn.com         |   High   |  Threat Feed B  | 2023-04-25 11:14:29 | WOO commerce.com |   Political    |     mobile phones      |
+|    131    |       IP       |     209.211.156.112      |   High   | Internal Sensor | 2023-03-31 09:31:22 |  racist limited  |     Power      |       businesses       |
+|    132    |   File Hash    |   dominguez-george.com   |  Medium  | Internal Sensor | 2023-07-04 23:33:45 |  racist limited  | Ctber bullying |      individuals       |
+|    133    |     Domain     |       johnson.com        |  Medium  |  Threat Feed B  | 2023-01-29 00:02:25 |     M2U.COM      | Ctber bullying |      individuals       |
+|    134    |       IP       |      156.33.218.24       |  Medium  |  Threat Feed A  | 2023-04-24 12:23:10 | WOO commerce.com |   Political    |     mobile phones      |
+|    135    |   File Hash    |    ramirez-wilson.net    |   High   |  Threat Feed A  | 2023-07-12 00:48:20 | WOO commerce.com |   Political    |       businesses       |
+|    136    |       IP       |      161.127.145.21      |  Medium  | Internal Sensor | 2023-03-24 09:28:07 |     M2U.COM      |     Power      |     mobile phones      |
+|    137    |       IP       |      190.27.118.99       |   High   | Internal Sensor | 2023-07-25 04:58:12 |   Audio group    |   Political    | financial institutions |
+|    138    |       IP       |     217.101.248.141      |  Medium  |  Threat Feed B  | 2023-01-28 18:25:50 |     M2U.COM      | Financial gain |       businesses       |
+|    139    |       IP       |       31.135.68.36       |   Low    |  Threat Feed B  | 2023-01-02 02:52:37 |     M2U.COM      | Ctber bullying | financial institutions |
+|    140    |   File Hash    |      montgomery.com      |   Low    |  Threat Feed B  | 2023-05-07 12:21:04 |   Audio group    |   Political    | financial institutions |
+|    141    |       IP       |      3.167.228.195       |  Medium  | Internal Sensor | 2023-02-26 12:04:13 |  racist limited  | Ctber bullying |     mobile phones      |
+|    142    |   File Hash    |    prince-garcia.net     |  Medium  |  Threat Feed A  | 2023-03-21 02:43:33 |   Audio group    |   Political    |     mobile phones      |
+|    143    |     Domain     |   gonzalez-sanchez.org   |  Medium  |  Threat Feed A  | 2023-02-20 23:17:55 |     M2U.COM      |     Power      |      individuals       |
+|    144    |      URL       |       gonzalez.com       |  Medium  |  Threat Feed A  | 2023-07-19 04:17:05 |     M2U.COM      | Financial gain | financial institutions |
+|    145    |   File Hash    |       walton.info        |   High   |  Threat Feed B  | 2023-02-08 00:24:42 |   Audio group    |     Power      |       businesses       |
+|    146    |      URL       |       holloway.com       |  Medium  |  Threat Feed B  | 2023-03-15 03:48:47 | WOO commerce.com | Ctber bullying |      individuals       |
+|    147    |   File Hash    |   thompson-benton.com    |  Medium  |  Threat Feed B  | 2023-03-04 02:42:48 | WOO commerce.com | Ctber bullying |      individuals       |
+|    148    |   File Hash    |        miller.biz        |   Low    |  Threat Feed A  | 2023-07-15 14:18:27 | WOO commerce.com |   Political    | financial institutions |
+|    149    |      URL       |        cherry.com        |  Medium  |  Threat Feed B  | 2023-07-28 21:55:23 |     M2U.COM      | Ctber bullying |     mobile phones      |
+|    150    |      URL       |       proctor.com        |   High   |  Threat Feed A  | 2023-06-14 07:52:13 |   Audio group    |   Political    | financial institutions |
+|    151    |   File Hash    |     ortiz-davis.biz      |   High   |  Threat Feed A  | 2023-05-19 18:37:34 |  racist limited  | Ctber bullying |      individuals       |
+|    152    |     Domain     |    perez-schultz.com     |   High   |  Threat Feed B  | 2023-01-08 15:41:58 |   Audio group    | Financial gain |     mobile phones      |
+|    153    |      URL       |        jordan.com        |  Medium  |  Threat Feed B  | 2023-06-04 15:22:34 |  racist limited  |   Political    |      individuals       |
+|    154    |      URL       |         west.com         |   Low    |  Threat Feed A  | 2023-06-10 19:50:53 |     M2U.COM      | Financial gain |     mobile phones      |
+|    155    |   File Hash    |         hall.com         |  Medium  |  Threat Feed A  | 2023-07-30 18:43:29 |     M2U.COM      | Financial gain |     mobile phones      |
+|    156    |      URL       |         paul.com         |   Low    |  Threat Feed A  | 2023-07-15 09:33:57 | WOO commerce.com |   Political    |      individuals       |
+|    157    |       IP       |      133.188.200.99      |  Medium  | Internal Sensor | 2023-06-06 19:54:34 |     M2U.COM      | Financial gain |     mobile phones      |
+|    158    |     Domain     |    wallace-galvan.net    |   Low    |  Threat Feed A  | 2023-03-30 12:39:29 |  racist limited  | Ctber bullying | financial institutions |
+|    159    |     Domain     |       joseph.info        |  Medium  | Internal Sensor | 2023-07-17 11:16:01 |  racist limited  |     Power      |      individuals       |
+|    160    |   File Hash    |        nelson.net        |   High   |  Threat Feed B  | 2023-07-22 17:01:45 |   Audio group    |   Political    |       businesses       |
+|    161    |      URL       |        vance.com         |   High   |  Threat Feed A  | 2023-07-28 23:08:47 | WOO commerce.com |     Power      | financial institutions |
+|    162    |      URL       |        ortiz.com         |   Low    |  Threat Feed A  | 2023-02-14 12:05:12 | WOO commerce.com |   Political    |      individuals       |
+|    163    |       IP       |       146.42.0.174       |  Medium  |  Threat Feed A  | 2023-06-01 11:33:50 |   Audio group    | Ctber bullying |       businesses       |
+|    164    |      URL       |       shields.com        |  Medium  |  Threat Feed B  | 2023-04-10 15:15:25 |     M2U.COM      | Financial gain |     mobile phones      |
+|    165    |       IP       |     119.191.131.192      |   High   |  Threat Feed B  | 2023-04-01 22:56:09 |     M2U.COM      | Ctber bullying |       businesses       |
+|    166    |      URL       |       fuentes.net        |  Medium  |  Threat Feed A  | 2023-05-10 15:28:10 |   Audio group    | Financial gain |     mobile phones      |
+|    167    |       IP       |      65.158.221.37       |   High   |  Threat Feed A  | 2023-05-18 10:00:34 | WOO commerce.com |     Power      | financial institutions |
+|    168    |      URL       |       beasley.org        |   High   |  Threat Feed B  | 2023-06-05 00:21:09 |     M2U.COM      | Financial gain |      individuals       |
+|    169    |     Domain     |        white.com         |  Medium  |  Threat Feed A  | 2023-01-30 17:49:57 | WOO commerce.com |     Power      |     mobile phones      |
+|    170    |     Domain     |         hess.com         |  Medium  |  Threat Feed B  | 2023-01-07 08:06:12 |     M2U.COM      |     Power      |       businesses       |
+|    171    |       IP       |      114.199.95.37       |  Medium  |  Threat Feed A  | 2023-06-29 20:06:14 |     M2U.COM      |     Power      | financial institutions |
+|    172    |      URL       |        wilson.net        |   High   |  Threat Feed A  | 2023-08-05 01:37:31 |  racist limited  |   Political    |       businesses       |
+|    173    |       IP       |      102.96.25.184       |  Medium  |  Threat Feed A  | 2023-05-27 08:22:17 |     M2U.COM      | Financial gain |     mobile phones      |
+|    174    |       IP       |      150.35.90.179       |   Low    |  Threat Feed B  | 2023-03-09 08:52:07 |     M2U.COM      | Financial gain | financial institutions |
+|    175    |      URL       |      blackwell.net       |   Low    | Internal Sensor | 2023-05-23 04:14:40 |   Audio group    |   Political    |       businesses       |
+|    176    |       IP       |      14.238.55.208       |   High   |  Threat Feed B  | 2023-04-04 15:04:32 |  racist limited  |     Power      |      individuals       |
+|    177    |     Domain     |        gomez.com         |   Low    | Internal Sensor | 2023-06-13 08:10:30 |   Audio group    |   Political    | financial institutions |
+|    178    |       IP       |     128.122.190.216      |  Medium  |  Threat Feed A  | 2023-01-03 07:52:40 |     M2U.COM      |   Political    |       businesses       |
+|    179    |   File Hash    |    donovan-hardy.biz     |   Low    | Internal Sensor | 2023-05-15 05:48:45 |  racist limited  | Ctber bullying |      individuals       |
+|    180    |     Domain     |       lawson.info        |   Low    |  Threat Feed B  | 2023-07-23 10:03:18 |     M2U.COM      |     Power      |      individuals       |
+|    181    |       IP       |      1.148.169.237       |   Low    | Internal Sensor | 2023-03-20 03:52:28 | WOO commerce.com | Ctber bullying |       businesses       |
+|    182    |      URL       |     hodges-wong.com      |  Medium  |  Threat Feed A  | 2023-02-08 04:14:29 |     M2U.COM      | Financial gain |      individuals       |
+|    183    |      URL       |        moore.com         |  Medium  | Internal Sensor | 2023-07-02 05:42:39 |  racist limited  | Financial gain |     mobile phones      |
+|    184    |      URL       |    patel-marshall.com    |  Medium  |  Threat Feed A  | 2023-03-28 01:21:02 |   Audio group    |     Power      |     mobile phones      |
+|    185    |     Domain     |    williams-payne.biz    |   Low    | Internal Sensor | 2023-07-15 02:48:50 | WOO commerce.com |     Power      |     mobile phones      |
+|    186    |   File Hash    |        yoder.biz         |  Medium  | Internal Sensor | 2023-05-13 18:57:38 | WOO commerce.com | Financial gain |      individuals       |
+|    187    |     Domain     |        cooke.info        |   Low    |  Threat Feed B  | 2023-01-10 18:45:12 |  racist limited  | Ctber bullying |       businesses       |
+|    188    |   File Hash    |        rivera.com        |   Low    | Internal Sensor | 2023-05-27 06:32:35 |  racist limited  |     Power      | financial institutions |
+|    189    |     Domain     |       hammond.net        |  Medium  | Internal Sensor | 2023-07-23 17:30:28 |  racist limited  |     Power      |     mobile phones      |
+|    190    |      URL       |       fuentes.info       |   High   |  Threat Feed A  | 2023-03-17 06:05:13 |   Audio group    | Ctber bullying | financial institutions |
+|    191    |   File Hash    |        morrow.com        |   Low    | Internal Sensor | 2023-02-26 21:06:32 |     M2U.COM      |   Political    |      individuals       |
+|    192    |       IP       |      172.155.81.15       |   Low    |  Threat Feed B  | 2023-01-16 03:39:36 |     M2U.COM      | Ctber bullying | financial institutions |
+|    193    |   File Hash    |    rivera-moreno.biz     |   Low    |  Threat Feed B  | 2023-01-13 00:57:57 | WOO commerce.com | Ctber bullying |       businesses       |
+|    194    |      URL       |       wallace.com        |   High   | Internal Sensor | 2023-05-27 15:02:15 |  racist limited  |   Political    |      individuals       |
+|    195    |     Domain     |        gentry.org        |   Low    | Internal Sensor | 2023-06-01 09:11:38 | WOO commerce.com |   Political    |       businesses       |
+|    196    |      URL       |        smith.com         |   High   |  Threat Feed A  | 2023-01-13 20:13:21 |     M2U.COM      | Financial gain | financial institutions |
+|    197    |   File Hash    |        brown.com         |   Low    | Internal Sensor | 2023-04-21 14:27:33 |     M2U.COM      |     Power      | financial institutions |
+|    198    |       IP       |      62.118.59.236       |   Low    |  Threat Feed B  | 2023-06-14 03:36:44 | WOO commerce.com | Financial gain |      individuals       |
+|    199    |   File Hash    |        turner.net        |   Low    |  Threat Feed A  | 2023-03-04 19:42:08 |  racist limited  | Financial gain |     mobile phones      |
+|    200    |   File Hash    |     ray-freeman.com      |   Low    |  Threat Feed B  | 2023-02-18 10:56:57 |  racist limited  |     Power      |      individuals       |
+|    201    |       IP       |      45.238.228.53       |  Medium  | Internal Sensor | 2023-02-19 19:49:54 | WOO commerce.com |     Power      |     mobile phones      |
+|    202    |       IP       |      104.52.49.128       |   Low    |  Threat Feed B  | 2023-02-09 20:05:39 |     M2U.COM      | Financial gain |      individuals       |
+|    203    |       IP       |      156.27.75.168       |  Medium  |  Threat Feed A  | 2023-07-31 02:21:48 |  racist limited  | Financial gain |      individuals       |
+|    204    |   File Hash    |        kirby.com         |   Low    | Internal Sensor | 2023-04-09 17:35:40 |     M2U.COM      | Ctber bullying |     mobile phones      |
+|    205    |      URL       |     watson-white.com     |  Medium  |  Threat Feed A  | 2023-01-20 01:06:59 |     M2U.COM      | Ctber bullying |      individuals       |
+|    206    |     Domain     |       jackson.com        |   High   |  Threat Feed A  | 2023-07-26 01:01:59 |   Audio group    | Ctber bullying |       businesses       |
+|    207    |      URL       |    davis-mcguire.com     |   Low    |  Threat Feed B  | 2023-05-24 01:26:16 |  racist limited  |   Political    |     mobile phones      |
+|    208    |       IP       |       82.63.28.41        |   Low    |  Threat Feed A  | 2023-07-19 06:08:18 |  racist limited  |   Political    | financial institutions |
+|    209    |   File Hash    |        torres.com        |   Low    |  Threat Feed A  | 2023-07-24 12:46:01 | WOO commerce.com | Financial gain |     mobile phones      |
+|    210    |      URL       |        morgan.com        |  Medium  |  Threat Feed B  | 2023-05-30 17:49:36 | WOO commerce.com |     Power      |      individuals       |
+|    211    |      URL       |       mccarty.info       |  Medium  |  Threat Feed A  | 2023-06-01 13:36:30 |  racist limited  |     Power      |      individuals       |
+|    212    |       IP       |      197.149.91.187      |  Medium  |  Threat Feed A  | 2023-03-14 15:20:57 |  racist limited  |     Power      |       businesses       |
+|    213    |      URL       |       whitney.com        |   High   |  Threat Feed A  | 2023-01-16 16:42:49 |  racist limited  | Ctber bullying | financial institutions |
+|    214    |   File Hash    |       fuentes.com        |   High   |  Threat Feed A  | 2023-05-13 08:37:47 |     M2U.COM      | Ctber bullying | financial institutions |
+|    215    |     Domain     |     tate-powell.org      |   High   | Internal Sensor | 2023-04-09 11:53:18 | WOO commerce.com |     Power      |       businesses       |
+|    216    |       IP       |      34.205.209.155      |   High   |  Threat Feed B  | 2023-01-29 13:58:28 |     M2U.COM      |     Power      | financial institutions |
+|    217    |   File Hash    |       schmidt.com        |   High   |  Threat Feed B  | 2023-03-03 00:46:49 |     M2U.COM      |   Political    |     mobile phones      |
+|    218    |   File Hash    |       barrera.com        |   High   |  Threat Feed B  | 2023-03-11 02:35:36 |   Audio group    | Financial gain |       businesses       |
+|    219    |   File Hash    |        allen.com         |   Low    |  Threat Feed A  | 2023-06-15 00:44:11 |   Audio group    |     Power      | financial institutions |
+|    220    |       IP       |      148.209.120.23      |   Low    | Internal Sensor | 2023-08-07 09:22:56 |  racist limited  | Ctber bullying |     mobile phones      |
+|    221    |      URL       |        vargas.com        |  Medium  |  Threat Feed A  | 2023-01-22 17:24:26 |  racist limited  | Ctber bullying |       businesses       |
+|    222    |   File Hash    |   ford-strickland.com    |   High   | Internal Sensor | 2023-06-01 06:07:31 |   Audio group    | Ctber bullying | financial institutions |
+|    223    |       IP       |       36.113.0.40        |   Low    |  Threat Feed B  | 2023-02-06 08:59:16 |     M2U.COM      | Financial gain |       businesses       |
+|    224    |       IP       |      116.116.116.43      |   Low    |  Threat Feed B  | 2023-01-19 11:16:42 |     M2U.COM      | Financial gain |       businesses       |
+|    225    |       IP       |       53.11.66.107       |   Low    |  Threat Feed A  | 2023-05-23 05:19:27 |  racist limited  |   Political    |       businesses       |
+|    226    |     Domain     |       simmons.com        |   High   |  Threat Feed B  | 2023-04-02 09:48:16 |   Audio group    |   Political    |      individuals       |
+|    227    |       IP       |       1.172.212.18       |  Medium  |  Threat Feed A  | 2023-04-28 19:19:11 |   Audio group    | Financial gain |       businesses       |
+|    228    |      URL       |       wallace.com        |   High   |  Threat Feed B  | 2023-05-29 10:16:24 |  racist limited  |   Political    | financial institutions |
+|    229    |      URL       |   gonzalez-terrell.com   |  Medium  | Internal Sensor | 2023-02-20 16:10:18 |   Audio group    |   Political    |      individuals       |
+|    230    |     Domain     |     little-reese.net     |  Medium  |  Threat Feed A  | 2023-04-12 14:47:48 |  racist limited  |   Political    |      individuals       |
+|    231    |       IP       |     203.159.238.244      |   High   | Internal Sensor | 2023-01-22 02:20:01 |   Audio group    |     Power      |       businesses       |
+|    232    |       IP       |      80.87.138.243       |   High   |  Threat Feed A  | 2023-07-07 17:52:29 |   Audio group    | Ctber bullying | financial institutions |
+|    233    |       IP       |      203.29.131.89       |   High   |  Threat Feed B  | 2023-07-31 16:07:40 |  racist limited  | Financial gain | financial institutions |
+|    234    |     Domain     |       proctor.biz        |  Medium  | Internal Sensor | 2023-01-01 06:06:28 |  racist limited  | Financial gain |       businesses       |
+|    235    |      URL       |       schultz.com        |   Low    |  Threat Feed B  | 2023-07-01 12:36:18 |     M2U.COM      | Ctber bullying |      individuals       |
+|    236    |   File Hash    |        guzman.net        |  Medium  | Internal Sensor | 2023-03-11 17:10:26 |  racist limited  | Financial gain |       businesses       |
+|    237    |       IP       |      119.145.99.164      |  Medium  |  Threat Feed A  | 2023-04-08 18:35:36 |  racist limited  | Financial gain |      individuals       |
+|    238    |      URL       |       anthony.com        |   Low    |  Threat Feed A  | 2023-01-19 18:37:41 | WOO commerce.com | Financial gain |       businesses       |
+|    239    |   File Hash    |    phillips-gomez.biz    |  Medium  |  Threat Feed B  | 2023-07-08 14:25:58 |   Audio group    |     Power      |      individuals       |
+|    240    |   File Hash    |        jones.net         |   High   |  Threat Feed A  | 2023-03-25 01:46:20 |   Audio group    |   Political    | financial institutions |
+|    241    |   File Hash    |        bryant.com        |   Low    | Internal Sensor | 2023-04-03 10:20:10 |  racist limited  |     Power      | financial institutions |
+|    242    |     Domain     |       williams.org       |   High   |  Threat Feed B  | 2023-03-23 11:15:01 | WOO commerce.com |   Political    |      individuals       |
+|    243    |     Domain     |        perez.com         |   High   |  Threat Feed B  | 2023-04-26 09:15:31 |  racist limited  | Financial gain |     mobile phones      |
+|    244    |     Domain     |     smith-thomas.biz     |  Medium  |  Threat Feed B  | 2023-01-18 10:11:57 |  racist limited  |     Power      | financial institutions |
+|    245    |      URL       |       reynolds.com       |   Low    | Internal Sensor | 2023-06-23 01:34:16 |   Audio group    |     Power      |      individuals       |
+|    246    |       IP       |      102.182.199.30      |  Medium  |  Threat Feed A  | 2023-06-21 18:36:21 | WOO commerce.com | Ctber bullying |       businesses       |
+|    247    |   File Hash    |        mccoy.net         |   High   | Internal Sensor | 2023-07-17 09:34:18 |   Audio group    |   Political    |       businesses       |
+|    248    |     Domain     |       delgado.com        |  Medium  |  Threat Feed A  | 2023-01-25 02:53:53 |   Audio group    |   Political    |      individuals       |
+|    249    |       IP       |      104.136.105.27      |  Medium  |  Threat Feed A  | 2023-08-03 03:40:23 |     M2U.COM      | Ctber bullying |     mobile phones      |
+|    250    |   File Hash    |       reynolds.com       |   High   |  Threat Feed A  | 2023-05-12 10:51:01 |  racist limited  |     Power      | financial institutions |
+|    251    |      URL       |       williams.org       |   Low    |  Threat Feed B  | 2023-06-27 16:56:44 |     M2U.COM      |   Political    | financial institutions |
+|    252    |     Domain     |         ross.biz         |   High   | Internal Sensor | 2023-07-22 15:29:39 | WOO commerce.com |   Political    |      individuals       |
+|    253    |      URL       |        rivera.com        |   Low    | Internal Sensor | 2023-01-07 21:08:20 |  racist limited  | Financial gain |      individuals       |
+|    254    |       IP       |      191.97.176.11       |   High   |  Threat Feed A  | 2023-06-04 11:40:55 |     M2U.COM      | Ctber bullying |       businesses       |
+|    255    |     Domain     |        grant.com         |   High   |  Threat Feed B  | 2023-02-07 09:48:32 | WOO commerce.com | Financial gain |     mobile phones      |
+|    256    |   File Hash    |      robertson.biz       |  Medium  | Internal Sensor | 2023-01-16 19:57:51 |     M2U.COM      |   Political    |     mobile phones      |
+|    257    |       IP       |      153.27.239.151      |   High   | Internal Sensor | 2023-03-06 00:59:36 | WOO commerce.com | Ctber bullying |      individuals       |
+|    258    |       IP       |      70.169.185.211      |   High   |  Threat Feed B  | 2023-02-03 20:12:42 |   Audio group    |   Political    |       businesses       |
+|    259    |      URL       |   martinez-duncan.com    |   High   | Internal Sensor | 2023-07-06 16:33:54 | WOO commerce.com | Financial gain |       businesses       |
+|    260    |   File Hash    |        sawyer.net        |  Medium  |  Threat Feed A  | 2023-07-09 22:21:27 |     M2U.COM      |   Political    |       businesses       |
+|    261    |       IP       |       183.0.183.93       |   High   |  Threat Feed A  | 2023-02-06 13:51:21 | WOO commerce.com | Financial gain |       businesses       |
+|    262    |   File Hash    |         may.com          |   High   | Internal Sensor | 2023-02-10 06:28:51 |   Audio group    |     Power      | financial institutions |
+|    263    |     Domain     |    alvarez-warren.net    |  Medium  |  Threat Feed A  | 2023-05-22 03:59:31 |   Audio group    | Financial gain |      individuals       |
+|    264    |       IP       |      15.181.246.206      |  Medium  | Internal Sensor | 2023-06-29 00:49:04 |   Audio group    |   Political    |     mobile phones      |
+|    265    |   File Hash    |        cooper.com        |   Low    |  Threat Feed B  | 2023-06-10 18:18:03 | WOO commerce.com |   Political    |     mobile phones      |
+|    266    |     Domain     |       sanchez.com        |  Medium  | Internal Sensor | 2023-05-08 17:53:34 |   Audio group    |     Power      |     mobile phones      |
+|    267    |   File Hash    |        burns.com         |   Low    |  Threat Feed A  | 2023-04-25 18:52:29 |     M2U.COM      | Financial gain |       businesses       |
+|    268    |   File Hash    |       ray-orr.com        |   Low    | Internal Sensor | 2023-07-11 20:50:21 | WOO commerce.com |   Political    |     mobile phones      |
+|    269    |       IP       |      114.159.7.146       |  Medium  |  Threat Feed A  | 2023-03-27 13:40:49 | WOO commerce.com |     Power      |     mobile phones      |
+|    270    |     Domain     |    massey-wagner.com     |   Low    |  Threat Feed A  | 2023-07-24 07:15:41 |  racist limited  |     Power      |     mobile phones      |
+|    271    |       IP       |      195.67.82.149       |   Low    |  Threat Feed B  | 2023-07-20 19:04:58 | WOO commerce.com |     Power      | financial institutions |
+|    272    |     Domain     |        olson.com         |   High   |  Threat Feed B  | 2023-04-19 00:17:14 |     M2U.COM      |   Political    |     mobile phones      |
+|    273    |     Domain     |         long.com         |   Low    |  Threat Feed B  | 2023-08-10 04:52:48 |  racist limited  |     Power      |      individuals       |
+|    274    |      URL       |     brown-flynn.com      |   High   |  Threat Feed B  | 2023-05-10 11:07:02 |  racist limited  | Ctber bullying | financial institutions |
+|    275    |       IP       |      181.212.232.72      |   Low    |  Threat Feed B  | 2023-05-29 01:23:36 |  racist limited  | Ctber bullying |     mobile phones      |
+|    276    |     Domain     |    moore-mitchell.com    |   High   |  Threat Feed B  | 2023-03-02 00:36:26 |     M2U.COM      | Financial gain |       businesses       |
+|    277    |     Domain     |        hodges.com        |   High   |  Threat Feed A  | 2023-01-27 18:13:26 |   Audio group    | Ctber bullying | financial institutions |
+|    278    |     Domain     |        burns.com         |  Medium  |  Threat Feed B  | 2023-07-23 17:52:33 |     M2U.COM      | Ctber bullying |       businesses       |
+|    279    |     Domain     |       sellers.com        |  Medium  |  Threat Feed A  | 2023-04-15 00:15:11 |     M2U.COM      |   Political    |      individuals       |
+|    280    |      URL       |       hudson.info        |   High   |  Threat Feed A  | 2023-08-06 23:16:18 |     M2U.COM      | Financial gain |     mobile phones      |
+|    281    |     Domain     |        myers.com         |   Low    | Internal Sensor | 2023-02-05 06:45:42 |     M2U.COM      | Ctber bullying |       businesses       |
